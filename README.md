@@ -3,20 +3,20 @@
 
 This repository is the Github page of the [UrbanNav dataset](https://www.polyu-ipn-lab.com/download). Positioning and localization in deep urban canyons using low-cost urban canyon is still a challenging problem. The accuracy of GNSS can be severely challenged in urban canyons due to the high-rising buildings, leading to numerous Non-line-of-sight (NLOS) receptions and multipath effects. Moreover, the excessive dynamic objects can also distort the performance of LiDAR, and camera. The UrbanNav dataset wishes to provide a challenging data source to the community to further accelerate the study of accurate and robust positioning in challenging urban canyons. The dataset includes sensor measurements from GNSS receiver, LiDAR, camera and IMU, together with accurate ground truth from [SPAN-CPT](https://novatel.com/products/span-gnss-inertial-navigation-systems) system. Different from the existing dataset, such as [Waymo](https://waymo.com/open/), [KITTI](http://www.cvlibs.net/datasets/kitti/), UrbanNav provide raw GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. In this case, users can improve the performance of GNSS positioning via raw data. In short, the UrbanNav dataset pose a special focus on improving GNSS positioning in urban canyons, but also provide sensor measurements from LiDAR, camera and IMU. **If you got any problems when using the dataset and cannot find an satisfactory solution in the issue list, please open an new issue and we will reply ASAP.**
 
+Key words: **Positioning**,**Localization**,**GNSS Positioning**, **Urban Canyons**, **GNSS Raw Data**,**Dynamic Objects**,**GNSS/INS/LiDAR/Camera**,
+
 <p align="center">
   <img width="712pix" src="img/urbanNav.png">
 </p>
 
 **Important Notes**: 
-  - The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as custimized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO).
+  - The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as custimized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO). If you wish to use the GraphGNSSLib, keep an eye on the update of this repo.
 
 ## Objective of the Dataset:
 
 - Benchmarking different positioning algorithms using the open-sourced dataset.
 
 - Raising the awareness of the urgent navigation requirement in highly-urbanized areas especially in Asian-Pacific regions.
-
-
 
 **Main Authors (corresponding to issues and maintainance of the dataset)**: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Li-ta Hsu](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
@@ -39,12 +39,12 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
   <img width="712pix" src="img/hongkong_sensor.png">
 </p>
 
-### 1.2. UrbanNav-HK-Data20190428
-- Dataset information 
-  - Data of collection: 2019/04/28
-  - Total size: 42.9 GB
-  - Path length: 2.01 Km
-  - Sensors: GNSS/LiDAR/Camera/IMU/SPAN-CPT
+### 1.2. Dataset 1: UrbanNav-HK-Data20190428
+**Brief**: Dataset UrbanNav-HK-Data20190428 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. Some key features are as follows:
+  | Date of Collection | Total Size |Path length |Sensors |
+  | :---:  | :---:  |:---:  |:---:  |
+  | 2019/04/28 | 42.9 GB|2.01 Km |GNSS/LiDAR/Camera/IMU/SPAN-CPT |
+
 - Dropbox Link: [Data INFO](https://www.dropbox.com/s/u8jise47l01g19v/Data%20Info%20Dropbox.zip?dl=0)
   - [UrbanNav-HK-Data20190428](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0) (ROS)
     - ROSBAG file whihc includes:
@@ -88,12 +88,13 @@ The platform is equipped with the following sensors:
   <img width="712pix" src="img/tokyosensor.png">
 </p>
 
-### 2.2. UrbanNav-TK-20181219
+### 2.2. Dataset 1: UrbanNav-TK-20181219
 ##### Important Notes: the LiDAR calibration file for the LiDAR sensor is not available now. If you wish to study the GNSS/LiDAR/IMU integration, we suggest using the dataset above collected in Hong Kong. However, the GNSS dataset from Tokyo is challenging which is collected in challenging urban canyons!
-  - Data of collection: 2018/12/19
-  - Total size: 4.14 GB
-  - Path length: >10 Km
-  - Sensors: GNSS/LiDAR/IMU/Ground Truth
+
+  | Date of Collection | Total Size |Path length |Sensors |
+  | :---:  | :---:  |:---:  |:---:  |
+  | 2018/12/19 | 4.14 GB|>10 Km |GNSS/LiDAR/IMU/Ground Truth |
+
   - [Dropbox Link](https://www.dropbox.com/s/isu1bugpgr8dpas/Tokyo_Data.zip?dl=0): 
 For mainland china users, please download the dataset using the **Baidou Clouds Links**. [Baidou Clouds Links](https://pan.baidu.com/s/1SVhRnD6yigzizqSUfifw1A) (7xpo)
 
