@@ -20,7 +20,7 @@ Key words: **Positioning**,**Localization**,**GNSS Positioning**, **Urban Canyon
 
 - Raising the awareness of the urgent navigation requirement in highly-urbanized areas especially in Asian-Pacific regions.
 
-**Main Authors (corresponding to issues and maintainance of the dataset)**: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Li-ta Hsu](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
+**Main Authors (corresponding to issues and maintainance of the currently available dataset)**: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Li-ta Hsu](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
 **Related Papers (Submitted):** (paper is not exactly same with code)
   - Wen Weisong., Hsu, Li-Ta.* (2020) **GraphGNSSLib: An Open-source Package for GNSS Positioning and Real-time Kinematic Using Factor Graph Optimization**, GPS Solutions. (**Submitted**)
