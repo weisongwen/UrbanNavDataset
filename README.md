@@ -3,7 +3,7 @@
 
 This repository is the Github page of the [UrbanNav dataset](https://www.polyu-ipn-lab.com/download). Positioning and localization in deep urban canyons using low-cost urban canyon is still a challenging problem. The accuracy of GNSS can be severely challenged in urban canyons due to the high-rising buildings, leading to numerous Non-line-of-sight (NLOS) receptions and multipath effects. Moreover, the excessive dynamic objects can also distort the performance of LiDAR, and camera. The UrbanNav dataset wishes to provide a challenging data source to the community to further accelerate the study of accurate and robust positioning in challenging urban canyons. The dataset includes sensor measurements from GNSS receiver, LiDAR, camera and IMU, together with accurate ground truth from [SPAN-CPT](https://novatel.com/products/span-gnss-inertial-navigation-systems) system. Different from the existing dataset, such as [Waymo](https://waymo.com/open/), [KITTI](http://www.cvlibs.net/datasets/kitti/), UrbanNav provide raw GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. In this case, users can improve the performance of GNSS positioning via raw data. In short, the UrbanNav dataset pose a special focus on improving GNSS positioning in urban canyons, but also provide sensor measurements from LiDAR, camera and IMU. **If you got any problems when using the dataset and cannot find an satisfactory solution in the issue list, please open an new issue and we will reply ASAP.**
 
-Key words: **Positioning**,**Localization**,**GNSS Positioning**, **Urban Canyons**, **GNSS Raw Data**,**Dynamic Objects**,**GNSS/INS/LiDAR/Camera**,
+Key words: **Positioning**,**Localization**,**GNSS Positioning**, **Urban Canyons**, **GNSS Raw Data**,**Dynamic Objects**,**GNSS/INS/LiDAR/Camera**, **Ground Truth**
 
 <p align="center">
   <img width="712pix" src="img/urbanNav.png">
@@ -12,7 +12,7 @@ Key words: **Positioning**,**Localization**,**GNSS Positioning**, **Urban Canyon
 **Important Notes**: 
   - **About access to GNSS RINEX file**: The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as custimized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO). If you wish to use the GraphGNSSLib, keep an eye on the update of this repo.
   - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact me via email <17902061r@connect.polyu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
-  - **Algorithm validation and contribution**: Researches are welcome to share their navigation solution results, source code to the UrbanNav dataset after a code review process, e,g, code for GNSS/INS integration or LiDAR SLAM, etc. 
+  - **Algorithm validation and contribution**: Researches are welcomed to share their navigation solution results, source code to the UrbanNav dataset after a code review process, e,g, code for GNSS/INS integration or LiDAR SLAM, etc. 
 
 ## Objective of the Dataset:
 
@@ -42,12 +42,14 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
 </p>
 
 ### 1.2. Dataset 1: UrbanNav-HK-Data20190428
-**Brief**: Dataset UrbanNav-HK-Data20190428 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. Some key features are as follows:
+**Brief**: Dataset UrbanNav-HK-Data20190428 is collected in a typical urban canyon of Hong Kong near TST which involves high-rising buildings, numerous dynamic objects. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Data20190428/extrinsic.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Data20190428/camera_extrinsic.yaml).
+
+Some key features are as follows:
   | Date of Collection | Total Size |Path length |Sensors |
   | :---:  | :---:  |:---:  |:---:  |
   | 2019/04/28 | 42.9 GB|2.01 Km |GNSS/LiDAR/Camera/IMU/SPAN-CPT |
 
-- Dropbox Link: [Data INFO](https://www.dropbox.com/s/u8jise47l01g19v/Data%20Info%20Dropbox.zip?dl=0)
+- Download by Dropbox Link: [Data INFO](https://www.dropbox.com/s/u8jise47l01g19v/Data%20Info%20Dropbox.zip?dl=0)
   - [UrbanNav-HK-Data20190428](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0) (ROS)
     - ROSBAG file whihc includes:
       - GNSS positioning (solution directly from GNSS receiver): ```/ublox_node/fix```
@@ -61,7 +63,7 @@ The platform for data collection in Hong Kong is a Honda Fit. The platform is eq
     - IMU and SPAN-CPT data for **non-ROS users**.
 
 For mainland china users, please download the dataset using the **Baidou Clouds Links**
-- Baidu Cloud Link: [Data INFO](https://pan.baidu.com/s/1QeeJMZutOtZBK0wXnVKM3Q), (qm3l)
+- Download by Baidu Cloud Link: [Data INFO](https://pan.baidu.com/s/1QeeJMZutOtZBK0wXnVKM3Q), (qm3l)
   - [UrbanNav-HK-Data20190428](https://pan.baidu.com/s/1ieaSk9MPBgSvfuJhHTbDjQ) (ROS)  (nff4)
   - ROSBAG file whihc includes:
       - GNSS positioning (solution directly from GNSS receiver): ```/ublox_node/fix```
@@ -97,7 +99,7 @@ The platform is equipped with the following sensors:
   | :---:  | :---:  |:---:  |:---:  |
   | 2018/12/19 | 4.14 GB|>10 Km |GNSS/LiDAR/IMU/Ground Truth |
 
-  - [Dropbox Link](https://www.dropbox.com/s/isu1bugpgr8dpas/Tokyo_Data.zip?dl=0): 
+  - Download by [Dropbox Link](https://www.dropbox.com/s/isu1bugpgr8dpas/Tokyo_Data.zip?dl=0): 
 For mainland china users, please download the dataset using the **Baidou Clouds Links**. [Baidou Clouds Links](https://pan.baidu.com/s/1SVhRnD6yigzizqSUfifw1A) (7xpo)
 
 <p align="center">
@@ -106,6 +108,7 @@ For mainland china users, please download the dataset using the **Baidou Clouds 
 <p align="center">
   <img width="712pix" src="img/trajectory1.png">
 </p>
+
 
 ## 3. Acknowledgements
 We acknowledge the help from Guohao Zhang, Yin-chiu Kan Weichang Xu and Song Yang for data collection.
