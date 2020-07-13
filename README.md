@@ -106,7 +106,7 @@ For mainland china users, please download the dataset using the **Baidou Clouds 
       - SPAN-CPT: ```/novatel_data/inspvax```
 
 <p align="center">
-  <img width="712pix" src="img/UrbanNav-HK-Data20190428.gif">
+  <img width="712pix" src="img/UrbanNav-HK-Data20190314.jpg">
 </p>
 
 
