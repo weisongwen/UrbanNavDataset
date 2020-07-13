@@ -80,6 +80,36 @@ For mainland china users, please download the dataset using the **Baidou Clouds 
   <img width="712pix" src="img/UrbanNav-HK-Data20190428.gif">
 </p>
 
+### 1.3. Dataset 1: UrbanNav-HK-Data20200314
+**Brief**: Dataset UrbanNav-HK-Data2020314 is collected in a low-urbanization area in Kowloon which suitable for algorithmic verification and comparison. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Data20190428/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Data20190428/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Data20190428/camera_extrinsic.yaml).
+
+Some key features are as follows:
+  | Date of Collection | Total Size |Path length |Sensors |
+  | :---:  | :---:  |:---:  |:---:  |
+  | 2019/03/14 | 27.0 GB|xxx Km |LiDAR/Camera/IMU/SPAN-CPT |
+
+- Download by Dropbox Link: [Data INFO](https://www.dropbox.com/s/u8jise47l01g19v/Data%20Info%20Dropbox.zip?dl=0)
+  - [UrbanNav-HK-Data20200314](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0) (ROS)
+    - ROSBAG file which includes:
+      - 3D LiDAR point clouds: ```/velodyne_points```
+      - Camera: ```/camera/image_color```
+      - IMU: ```/imu/data```
+      - SPAN-CPT: ```/novatel_data/inspvax```
+
+For mainland china users, please download the dataset using the **Baidou Clouds Links**
+- Download by Baidu Cloud Link:
+  - [UrbanNav-HK-Data20190314](https://pan.baidu.com/s/1MxIZFUjmDtU0luJ7fOXz2w) (ROS)  (n71w)
+  - ROSBAG file whihc includes:
+      - 3D LiDAR point clouds: ```/velodyne_points```
+      - Camera: ```/camera/image_color```
+      - IMU: ```/imu/data```
+      - SPAN-CPT: ```/novatel_data/inspvax```
+
+<p align="center">
+  <img width="712pix" src="img/UrbanNav-HK-Data20190428.gif">
+</p>
+
+
 ## 2. Tokyo Dataset
 ### 2.1 **Sensor Setups**
 The platform is equipped with the following sensors:
