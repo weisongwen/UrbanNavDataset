@@ -3,7 +3,7 @@
 
 This repository is the usage page of the [UrbanNav dataset](https://www.polyu-ipn-lab.com/download). Positioning and localization in deep urban canyons using low-cost sensors is still a challenging problem. The accuracy of GNSS can be severely challenged in urban canyons due to the high-rising buildings, leading to numerous Non-line-of-sight (NLOS) receptions and multipath effects. Moreover, the excessive dynamic objects can also distort the performance of LiDAR, and camera. The UrbanNav dataset wishes to provide a challenging data source to the community to further accelerate the study of accurate and robust positioning in challenging urban canyons. The dataset includes sensor measurements from GNSS receiver, LiDAR, camera and IMU, together with accurate ground truth from [SPAN-CPT](https://novatel.com/products/span-gnss-inertial-navigation-systems) system. Different from the existing dataset, such as [Waymo](https://waymo.com/open/), [KITTI](http://www.cvlibs.net/datasets/kitti/), UrbanNav provide raw GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. In this case, users can improve the performance of GNSS positioning via raw data. **In short, the UrbanNav dataset pose a special focus on improving GNSS positioning in urban canyons, but also provide sensor measurements from LiDAR, camera and IMU**. If you got any problems when using the dataset and cannot find a satisfactory solution in the issue list, please open a new issue and we will reply ASAP.
 
-Key words: **Positioning**,**Localization**,**GNSS Positioning**, **Urban Canyons**, **GNSS Raw Data**,**Dynamic Objects**,**GNSS/INS/LiDAR/Camera**, **Ground Truth**
+Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Canyons**, **GNSS Raw Data**,**Dynamic Objects**, **GNSS/INS/LiDAR/Camera**, **Ground Truth**
 
 <p align="center">
   <img width="712pix" src="img/urbanNav.png">
@@ -25,7 +25,7 @@ Key words: **Positioning**,**Localization**,**GNSS Positioning**, **Urban Canyon
 **Related Papers (Submitted):** (paper is not exactly same with code)
   - Wen Weisong., Hsu, Li-Ta.* (2020) **GraphGNSSLib: An Open-source Package for GNSS Positioning and Real-time Kinematic Using Factor Graph Optimization**, GPS Solutions. (**Submitted**)
 
-*if you use GraphGNASLib for your academic research, please cite our related [papers](https://www.polyu-ipn-lab.com/)*
+*if you use GraphGNSSLib for your academic research, please cite our related [papers](https://www.polyu-ipn-lab.com/)*
 
 
 ## 1. Hong Kong Dataset
