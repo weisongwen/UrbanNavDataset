@@ -62,7 +62,7 @@ Some key features are as follows:
   - [IMU/SPAN-CPT](https://www.dropbox.com/s/g1xt89py1j0uea1/IMU-Reference%20UrbanNav-HK-Data20190428.zip?dl=0) (CSV)
     - IMU and SPAN-CPT data for **non-ROS users**.
 
-For mainland china users, please download the dataset using the **Baidou Clouds Links**
+For mainland china users, please download the dataset using the **Baidu Cloud Links**
 - Download by Baidu Cloud Link: [Data INFO](https://pan.baidu.com/s/1QeeJMZutOtZBK0wXnVKM3Q), (qm3l)
   - [UrbanNav-HK-Data20190428](https://pan.baidu.com/s/1ieaSk9MPBgSvfuJhHTbDjQ) (ROS)  (nff4)
   - ROSBAG file whihc includes:
@@ -96,7 +96,7 @@ Some key features are as follows:
     - IMU: ```/imu/data```
     - SPAN-CPT: ```/novatel_data/inspvax```
 
-For mainland china users, please download the dataset using the **Baidou Clouds Links**
+For mainland china users, please download the dataset using the **Baidu Cloud Links**
 - Download by Baidu Cloud Link:
   - [UrbanNav-HK-Data20200314](https://pan.baidu.com/s/1MxIZFUjmDtU0luJ7fOXz2w) (ROS)  (n71w)
   - ROSBAG file whihc includes:
@@ -131,7 +131,7 @@ The platform is equipped with the following sensors:
   | 2018/12/19 | 4.14 GB|>10 Km |GNSS/LiDAR/IMU/Ground Truth |
 
   - Download by [Dropbox Link](https://www.dropbox.com/s/isu1bugpgr8dpas/Tokyo_Data.zip?dl=0): 
-For mainland china users, please download the dataset using the **Baidou Clouds Links**. [Baidou Clouds Links](https://pan.baidu.com/s/1SVhRnD6yigzizqSUfifw1A) (7xpo)
+For mainland china users, please download the dataset using the **Baidu Cloud Links**. [Baidu Cloud Links](https://pan.baidu.com/s/1SVhRnD6yigzizqSUfifw1A) (7xpo)
 
 <p align="center">
   <img width="712pix" src="img/trajectory.png">
