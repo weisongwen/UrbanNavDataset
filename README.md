@@ -86,7 +86,7 @@ For mainland china users, please download the dataset using the **Baidou Clouds 
 Some key features are as follows:
   | Date of Collection | Total Size |Path length |Sensors |
   | :---:  | :---:  |:---:  |:---:  |
-  | 2019/03/14 | 27.0 GB|xxx Km |LiDAR/Camera/IMU/SPAN-CPT |
+  | 2019/03/14 | 27.0 GB|1.21 Km |GNSS/LiDAR/Camera/IMU/SPAN-CPT |
 
 - Download by Dropbox Link: [Data INFO](https://www.dropbox.com/s/u8jise47l01g19v/Data%20Info%20Dropbox.zip?dl=0)
   - [UrbanNav-HK-Data20200314](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0) (ROS)
@@ -104,7 +104,8 @@ For mainland china users, please download the dataset using the **Baidou Clouds 
       - Camera: ```/camera/image_color```
       - IMU: ```/imu/data```
       - SPAN-CPT: ```/novatel_data/inspvax```
-
+  - [GNSS (RINEX)](https://pan.baidu.com/s/1hZumFO-0Vpp-ThrJmgRN5A) (hv3w)
+    - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 <p align="center">
   <img width="712pix" src="img/UrbanNav-HK-Data20190314.jpg">
 </p>
