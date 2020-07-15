@@ -62,15 +62,15 @@ Some key features are as follows:
   - [IMU/SPAN-CPT](https://www.dropbox.com/s/g1xt89py1j0uea1/IMU-Reference%20UrbanNav-HK-Data20190428.zip?dl=0) (CSV)
     - IMU and SPAN-CPT data for **non-ROS users**.
 
-For mainland china users, please download the dataset using the **Baidu Cloud Links**
+For mainland china users, please download the dataset using the **Baidu Clouds Links**
 - Download by Baidu Cloud Link: [Data INFO](https://pan.baidu.com/s/1QeeJMZutOtZBK0wXnVKM3Q), (qm3l)
   - [UrbanNav-HK-Data20190428](https://pan.baidu.com/s/1ieaSk9MPBgSvfuJhHTbDjQ) (ROS)  (nff4)
-  - ROSBAG file whihc includes:
-      - GNSS positioning (solution directly from GNSS receiver): ```/ublox_node/fix```
-      - 3D LiDAR point clouds: ```/velodyne_points```
-      - Camera: ```/camera/image_color```
-      - IMU: ```/imu/data```
-      - SPAN-CPT: ```/novatel_data/inspvax```
+    - ROSBAG file whihc includes:
+        - GNSS positioning (solution directly from GNSS receiver): ```/ublox_node/fix```
+        - 3D LiDAR point clouds: ```/velodyne_points```
+        - Camera: ```/camera/image_color```
+        - IMU: ```/imu/data```
+        - SPAN-CPT: ```/novatel_data/inspvax```
   - [GNSS (RINEX)](https://pan.baidu.com/s/1VEhmaf56R4cKeoUpZBrOug) (gojb)
     - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
   - [IMU/SPAN-CPT](https://pan.baidu.com/s/12gMv9EXt5Rpqu_14xcIaVw) (CSV) (k3dz)
@@ -80,32 +80,35 @@ For mainland china users, please download the dataset using the **Baidu Cloud Li
   <img width="712pix" src="img/UrbanNav-HK-Data20190428.gif">
 </p>
 
-### 1.3. Dataset 1: UrbanNav-HK-Data20200314
+### 1.3. Dataset 2: UrbanNav-HK-Data20200314
 **Brief**: Dataset UrbanNav-HK-Data2020314 is collected in a low-urbanization area in Kowloon which suitable for algorithmic verification and comparison. The coordinates transformation between multiple sensors, and intrinsic measurements of camera can be found via [Extrinsic Parameters](UrbanNav-HK-Data20190428/extrinsic.yaml), [IMU Nosie](UrbanNav-HK-Data20190428/xsens_imu_param.yaml) and [Intrinsic Parameters of Camera](UrbanNav-HK-Data20190428/camera_extrinsic.yaml).
 
 Some key features are as follows:
   | Date of Collection | Total Size |Path length |Sensors |
   | :---:  | :---:  |:---:  |:---:  |
-  | 2020/03/14 | 27.0 GB|1.21 Km |GNSS/LiDAR/Camera/IMU/SPAN-CPT |
+  | 2020/03/14 | 27.0 GB|1.21 Km |LiDAR/Camera/IMU/SPAN-CPT |
 
-- Download by Dropbox Link: [Data INFO](https://www.dropbox.com/s/u8jise47l01g19v/Data%20Info%20Dropbox.zip?dl=0)
-  - [UrbanNav-HK-Data20200314](https://www.dropbox.com/s/pfjvauvletdpnh2/2019-04-28-20-58-02.bag?dl=0) (ROS)
-  - ROSBAG file which includes:
-    - 3D LiDAR point clouds: ```/velodyne_points```
-    - Camera: ```/camera/image_color```
-    - IMU: ```/imu/data```
-    - SPAN-CPT: ```/novatel_data/inspvax```
-
-For mainland china users, please download the dataset using the **Baidu Cloud Links**
-- Download by Baidu Cloud Link:
-  - [UrbanNav-HK-Data20200314](https://pan.baidu.com/s/1MxIZFUjmDtU0luJ7fOXz2w) (ROS)  (n71w)
-  - ROSBAG file whihc includes:
+- Download by Dropbox Link: 
+  - [UrbanNav-HK-Data20200314](https://www.dropbox.com/s/3mtlncglrv7p39l/2020-03-14-16-45-35.bag.tar.gz?dl=0) (ROS)
+    - ROSBAG file which includes:
       - 3D LiDAR point clouds: ```/velodyne_points```
       - Camera: ```/camera/image_color```
       - IMU: ```/imu/data```
       - SPAN-CPT: ```/novatel_data/inspvax```
-  - [GNSS (RINEX)](https://pan.baidu.com/s/1hZumFO-0Vpp-ThrJmgRN5A) (hv3w)
+  - [GNSS](https://www.dropbox.com/sh/22mnpg86umjb4zh/AAAsIiQ1WAMp20OROUn4h6pka?dl=0) (RINEX)
     - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
+
+For mainland china users, please download the dataset using the **Baidu Clouds Links**
+- Download by Baidu Cloud Link:
+  - [UrbanNav-HK-Data20200314](https://pan.baidu.com/s/1MxIZFUjmDtU0luJ7fOXz2w) (ROS)  (n71w)
+    - ROSBAG file whihc includes:
+        - 3D LiDAR point clouds: ```/velodyne_points```
+        - Camera: ```/camera/image_color```
+        - IMU: ```/imu/data```
+        - SPAN-CPT: ```/novatel_data/inspvax```
+  - [GNSS](https://pan.baidu.com/s/16uFmKFFfQFXy27xRzqSivw) (gv7z) (RINEX)
+      - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
+
 <p align="center">
   <img width="712pix" src="img/UrbanNav-HK-Data20190314.jpg">
 </p>
@@ -131,7 +134,7 @@ The platform is equipped with the following sensors:
   | 2018/12/19 | 4.14 GB|>10 Km |GNSS/LiDAR/IMU/Ground Truth |
 
   - Download by [Dropbox Link](https://www.dropbox.com/s/isu1bugpgr8dpas/Tokyo_Data.zip?dl=0): 
-For mainland china users, please download the dataset using the **Baidu Cloud Links**. [Baidu Cloud Links](https://pan.baidu.com/s/1SVhRnD6yigzizqSUfifw1A) (7xpo)
+For mainland china users, please download the dataset using the **Baidou Clouds Links**. [Baidou Clouds Links](https://pan.baidu.com/s/1SVhRnD6yigzizqSUfifw1A) (7xpo)
 
 <p align="center">
   <img width="712pix" src="img/trajectory.png">
