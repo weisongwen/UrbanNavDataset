@@ -127,7 +127,7 @@ The platform is equipped with the following sensors:
 </p>
 
 ### 2.2. Dataset 1: UrbanNav-TK-20181219
-##### Important Notes: the LiDAR calibration file for the LiDAR sensor is not available now. If you wish to study the GNSS/LiDAR/IMU integration, we suggest using the dataset above collected in Hong Kong. However, the GNSS dataset from Tokyo is challenging which is collected in challenging urban canyons!
+#### Important Notes: the LiDAR calibration file for the LiDAR sensor is not available now. If you wish to study the GNSS/LiDAR/IMU integration, we suggest using the dataset above collected in Hong Kong. However, the GNSS dataset from Tokyo is challenging which is collected in challenging urban canyons!
 
   | Date of Collection | Total Size |Path length |Sensors |
   | :---:  | :---:  |:---:  |:---:  |
