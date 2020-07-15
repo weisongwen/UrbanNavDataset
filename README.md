@@ -106,7 +106,7 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
         - Camera: ```/camera/image_color```
         - IMU: ```/imu/data```
         - SPAN-CPT: ```/novatel_data/inspvax```
-  - [GNSS](https://pan.baidu.com/s/16uFmKFFfQFXy27xRzqSivw) (gv7z) (RINEX)
+  - [GNSS](https://pan.baidu.com/s/1tybs95h3Iz5IjMGw5zJlkQ) (z8vw) (RINEX)
       - GNSS RINEX files, to use it, we suggest to use the [RTKLIB](http://www.rtklib.com/)
 
 <p align="center">
