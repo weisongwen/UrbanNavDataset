@@ -22,8 +22,8 @@ body_T_LiDAR: !!opencv-matrix
            0,  0,  1, -0.28, 
            0., 0., 0., 1 ]
 
-################## Extrinsic parameter between IMU and Grount Truth##################
-body_T_LiDAR: !!opencv-matrix
+################## Extrinsic parameter between IMU and Grount Truth (SPAN-CPT)##################
+body_T_SPAN: !!opencv-matrix
    rows: 4
    cols: 4
    dt: d
