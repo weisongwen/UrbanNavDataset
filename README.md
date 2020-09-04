@@ -20,7 +20,7 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 - Raising the awareness of the urgent navigation requirement in highly-urbanized areas especially in Asian-Pacific regions.
 
-**Contact Authors (corresponding to issues and maintenance of the currently available dataset)**: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Li-ta Hsu](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
+**Contact Authors (corresponding to issues and maintenance of the currently available dataset)**: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Feng Huang](https://www.polyu-ipn-lab.com/),[Li-ta Hsu](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
 **Related Papers (Submitted):** (paper is not exactly same with code)
   - Wen Weisong., Hsu, Li-Ta.* (2020) **GraphGNSSLib: An Open-source Package for GNSS Positioning and Real-time Kinematic Using Factor Graph Optimization**, GPS Solutions. (**Submitted**)
@@ -127,7 +127,7 @@ The platform is equipped with the following sensors:
 </p>
 
 ### 2.2. Dataset 1: UrbanNav-TK-20181219
-#### Important Notes: the LiDAR calibration file for the LiDAR sensor is not available now. If you wish to study the GNSS/LiDAR/IMU integration, we suggest using the dataset above collected in Hong Kong. However, the GNSS dataset from Tokyo is challenging which is collected in challenging urban canyons!
+#### Important Notes: the LiDAR calibration file for the LiDAR sensor, extrinsic parameters between sensors are not available now. If you wish to study the GNSS/LiDAR/IMU integration, we suggest using the dataset above collected in Hong Kong. However, the GNSS dataset from Tokyo is challenging which is collected in challenging urban canyons!
 
   | Date of Collection | Total Size |Path length |Sensors |
   | :---:  | :---:  |:---:  |:---:  |
