@@ -22,11 +22,14 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 
 **Contact Authors (corresponding to issues and maintenance of the currently available dataset)**: [Weisong Wen](https://weisongwen.wixsite.com/weisongwen), [Feng Huang](https://www.polyu-ipn-lab.com/),[Li-ta Hsu](https://www.polyu-ipn-lab.com/) from the [Intelligent Positioning and Navigation Laboratory](https://www.polyu-ipn-lab.com/), The Hong Kong Polytechnique University
 
-**Related Papers (Submitted):** (paper is not exactly same with code)
-  - Wen Weisong., Hsu, Li-Ta.* (2020) **GraphGNSSLib: An Open-source Package for GNSS Positioning and Real-time Kinematic Using Factor Graph Optimization**, GPS Solutions. (**Submitted**)
+**Related Papers:** 
+  - Wen, Weisong, Xiwei Bai, Li-Ta Hsu, and Tim Pfeifer. "GNSS/LiDAR Integration Aided by Self-Adaptive Gaussian Mixture Models in Urban Scenarios: An Approach Robust to Non-Gaussian Noise." In 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS), pp. 647-654. IEEE, 2020.
 
 *if you use GraphGNSSLib for your academic research, please cite our related [papers](https://www.polyu-ipn-lab.com/)*
 
+**Work related to urbanLoco Dataset :** 
+  - Li, Tao, Ling Pei, Yan Xiang, Qi Wu, Songpengcheng Xia, Lihao Tao, and Wenxian Yu. "P3-LOAM: PPP/LiDAR Loosely Coupled SLAM with Accurate Covariance Estimation and Robust RAIM in Urban Canyon Environment." IEEE Sensors Journal (2020). [paper](https://arxiv.org/pdf/2012.02399.pdf)
+  - Chen, Chao, and Guobin Chang. "PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations." GPS Solutions 25, no. 1 (2020): 1-7. [PPPLib Code](https://github.com/heiwa0519/PPPLib), [paper](https://link.springer.com/article/10.1007/s10291-020-01052-4)
 
 ## 1. Hong Kong Dataset
 ### 1.1 **Sensor Setups**
