@@ -34,11 +34,11 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
 ## 1. Hong Kong Dataset
 ### 1.1 **Sensor Setups**
 The platform for data collection in Hong Kong is a Honda Fit. The platform is equipped with the following sensors:
-  - 3D LiDAR snesor ([HDL 32E Velodyne](https://velodynelidar.com/products/hdl-32e/)): (360 HFOV, +10~-30 VFOV, 80m range, 10Hz) 
+  - 3D LiDAR sensor ([HDL 32E Velodyne](https://velodynelidar.com/products/hdl-32e/)): (360 HFOV, +10~-30 VFOV, 80m range, 10Hz) 
   - IMU ([Xsens Mti 10](https://www.xsens.com/products/mti-10-series), 100 Hz, AHRS)
   - GNSS receiver: u-blox M8T or u-blox F9P (**to be updated**)  
   - camera:(1920X1200,79.4°X96.8°, 10Hz) 
-  - [SPAN-CPT](https://www.novatel.com/products/span-gnss-inertial-systems/span-combined-systems/span-cpt/):(RTK GNSS/INS,RMSE: 5cm, 1Hz) 
+  - [SPAN-CPT](https://www.novatel.com/products/span-gnss-inertial-systems/span-combined-systems/span-cpt/):(RTK GNSS/INS, RMSE: 5cm, 1Hz) 
 
 <p align="center">
   <img width="712pix" src="img/hongkong_sensor.png">
@@ -119,11 +119,12 @@ For mainland china users, please download the dataset using the **Baidu Clouds L
 
 ## 2. Tokyo Dataset
 ### 2.1 **Sensor Setups**
-The platform is equipped with the following sensors:
-  - 3D LiDAR snesor ([16 channels, puck, Velodyne] 
-  - IMU (50 Hz)
-  - GNSS receiver (Trimble)
-  - ground truth (RTK GNSS/INS,RMSE: 5cm, 10Hz) 
+The platform for data collection in Tokyo is a Toyota Rush. The platform is equipped with the following sensors:
+  - 3D LiDAR sensor ([VLP-32C Velodyne](https://velodynelidar.com/products/ultra-puck/)): (360 HFOV, +15~-25 VFOV, 200m range, 10Hz) 
+  - GNSS receiver: [u-blox F9P](https://www.u-blox.com/en/product/zed-f9p-module) (5 Hz) and [Trimble NetR9](https://trl.trimble.com/docushare/dsweb/Get/Document-689228/022506-128J_NetR9_DS_USL_0517_LR.pdf) (10 Hz)
+  - IMU ([Tamagawa-seiki TAG264](http://www.taroz.net/data/1674N7EJ.pdf), 50 Hz)
+  - Ground truth [Applanix POS LV620](https://www.applanix.com/downloads/products/specs/POS-LV-Datasheet.pdf):(RTK GNSS/INS, RMSE: 5cm, 10Hz) 
+
 
 <p align="center">
   <img width="712pix" src="img/tokyosensor.png">
@@ -138,10 +139,20 @@ The platform is equipped with the following sensors:
 
   - Download by [Dropbox Link](https://www.dropbox.com/s/isu1bugpgr8dpas/Tokyo_Data.zip?dl=0): 
 For mainland china users, please download the dataset using the **Baidu Clouds Links**. [Baidu Clouds Links](https://pan.baidu.com/s/1SVhRnD6yigzizqSUfifw1A) (7xpo)
+- The dataset contains data from two runs, ```/Odaiba``` and ```/Shinjuku ```.
+- The following files are included in each dataset.
+  - ```rover_ublox.obs``` and ```rover_trimble.obs```: Rover GNSS RINEX files (5 Hz / 10 Hz)
+  - ```imu.csv```: CSV file which includes GPS time, Angular velocity, and acceleration, (50 Hz)
+  - ```lidar.bag```: ROSBAG file which includes LiDAR data ```/velodyne_packets```
+  - ```base_trimble.obs``` and ```base.nav```: GNSS RINEX files of base station (1 Hz)
+  - ```reference.csv```: Ground truth from Applanix POS LV620 (10 Hz)
 
+- The travel trajectory of ```/Odaiba```
 <p align="center">
   <img width="712pix" src="img/trajectory.png">
 </p>
+
+- The travel trajectory of ```/Shinjuku```
 <p align="center">
   <img width="712pix" src="img/trajectory1.png">
 </p>
