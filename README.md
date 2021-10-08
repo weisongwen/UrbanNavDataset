@@ -9,6 +9,10 @@ Key words: **Positioning**, **Localization**, **GNSS Positioning**, **Urban Cany
   <img width="712pix" src="img/urbanNav.png">
 </p>
 
+**Updated Version**
+  - An updated [UrbanNavDataset](https://github.com/IPNL-POLYU/UrbanNavDataset) is available for testing and evaluation.
+  - Hsu, L.-T.; Kubo, N.; Chen, W.; Liu, Z.; Suzuki, T.; Meguro, J. UrbanNav:An open-sourced multisensory dataset for benchmarking positioning algorithms designed for urban areas. In Proceedings of the ION GNSS+ 2021, St. Louis, MO, USA, 20–24 September 2021.
+
 **Important Notes**: 
   - **About access to GNSS RINEX file**: The GNSS measurements is provided as GNSS [RINEX](https://en.wikipedia.org/wiki/RINEX) data. We will recently open-source a package, the [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib), which provide easy access to the GNSS RINEX file and publish the data as customized ROS message. Meanwhile, we [GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) also provide the capabilities of GNSS positioning and real-time kinematic (RTK) using factor graph optimization (FGO). If you wish to use the GraphGNSSLib, keep an eye on the update of this repo.
   - **Dataset contribution**: Researches who wish to contribute their dataset as part of the UrbanNav dataset, please feel free to contact me via email <17902061r@connect.polyu.hk>. We wish the UrbanNav can be a platform for navigation solution development, validation and sharing.
